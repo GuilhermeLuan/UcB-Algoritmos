@@ -31,7 +31,8 @@ int main(){
 
     if (mediaNotas < 7){
         printf("Reprovado!\n");
-    } else if(mediaNotas > 8){
+    } 
+    else if(mediaNotas > 8){
         printf("Espetacular!");
     } 
     else if (mediaNotas > 9){
