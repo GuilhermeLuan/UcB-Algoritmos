@@ -11,7 +11,7 @@ int main(){
     int numero1, numero2, resultado;
     char operador;
 
-    printf("Digite o operador(+,-,*,/): ");
+    printf("Digite o operador(+,-,*,/,%%): ");
     scanf("%c", &operador);
 
     printf("Digite o valor do numero 1: ");
@@ -35,8 +35,18 @@ int main(){
     else if (operador == '/'){
         resultado = numero1 / numero2;
     }
-
-    printf("Resultado: %d\n", resultado);
+    else if (operador == '%')
+    {
+        resultado = numero1 % numero2;
+    }
+    else {
+        printf("Operacao invalida!!\n");
+        return 0;
+    }
+    
+    printf("Resultado da: %d\n", resultado);
+    
+    
 
     return 0;
 }
