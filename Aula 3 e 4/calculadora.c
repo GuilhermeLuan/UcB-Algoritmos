@@ -2,11 +2,41 @@
 
 int main(){
 
-    int numero1 = 33;
-    int numero2 = 2;
-    int resultado;
+    //Essas duas formas de incremento são validas.
+    //numero 2 = ++numero1; -> Primeiro incremento o valor e salvo na variavel
+    //numero 2 = numero1++; -> Primeiro eu atribuo o valor da variavel e depois eu incremento o numero1
+    // numero1--;
+    // --numero1;
 
-    resultado = numero1 / numero2;
+    int numero1, numero2, resultado;
+    char operador;
+
+    printf("Digite o operador(+,-,*,/): ");
+    scanf("%c", &operador);
+
+    printf("Digite o valor do numero 1: ");
+    scanf("%d", &numero1);
+
+    printf("Digite o valor do numero 2: ");
+    scanf("%d", &numero2);
+
+    // "+" diferente de '+'
+    // String / Char
+
+    if(operador == '+'){
+        resultado = numero1 + numero2;
+    }
+    else if (operador == '-'){
+        resultado = numero1 - numero2;
+    }
+    else if (operador == '*'){
+        resultado = numero1 * numero2;
+    }
+    else if (operador == '/'){
+        resultado = numero1 / numero2;
+    }
+
     printf("Resultado: %d\n", resultado);
 
+    return 0;
 }
