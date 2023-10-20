@@ -26,7 +26,7 @@ int main(){
 
     printf("Digite o valor do numero 1: ");
     scanf("%d", &numero1);
-
+ 
     printf("Digite o valor do numero 2: ");
     scanf("%d", &numero2);
 
