@@ -7,10 +7,6 @@ struct aluno{
     char endereco[50];
 };
 
-
-
-
-
 int main(){
     struct aluno aluno1;
 
