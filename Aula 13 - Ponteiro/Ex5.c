@@ -10,7 +10,11 @@ int main(){
 //        array[i] = *p;
 //    }
 
+    for (int i = 0; i < 5; ++i) {
+        scanf("%d", &array[i]);
+        array[i] = (array[i]) * 2;
 
+    }
 
     for (int i = 0; i < 5; ++i) {
         printf("%d ", array[i]);
