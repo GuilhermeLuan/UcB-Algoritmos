@@ -11,4 +11,3 @@
 ## Utilidades 
 * Acessar o valor que está salvo em um endereco de memória.
 * Todo array é um ponteiro.
-* 
